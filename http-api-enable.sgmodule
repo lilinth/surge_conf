@@ -2,4 +2,4 @@
 #!desc=Rewrite configuration to enable HTTP-API.
 
 [General]
-http-api = %APPEND% httpapi@127.0.0.1:6171
+http-api = %APPEND% httpapi@0.0.0.0:6171
