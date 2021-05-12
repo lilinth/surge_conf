@@ -5,4 +5,4 @@
 NGA刮墙 = type=cron,cronexp=10 0 * * * https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/nga/nga.js
 
 [MITM]
-hostname = %INSERT% ngabbs.com
+hostname = %APPEND% ngabbs.com
