@@ -9,3 +9,8 @@ https://raw.githubusercontent.com/yichahucha/surge/master/eval_script/sg.sgmodul
 https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_Task.sgmodule.sgmodule
 https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.sgmodule
+
+https://raw.githubusercontent.com/lilinth/surge_conf/main/http-api-enable.sgmodule
+https://raw.githubusercontent.com/lilinth/surge_conf/main/iqiyi.sgmodule
+https://raw.githubusercontent.com/lilinth/surge_conf/main/jd.sgmodule
+https://raw.githubusercontent.com/lilinth/surge_conf/main/tieba.sgmodule
