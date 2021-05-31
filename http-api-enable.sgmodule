@@ -2,4 +2,7 @@
 #!desc=Rewrite configuration to enable HTTP-API.
 
 [General]
-http-api = %APPEND% httpapi@0.0.0.0:6171
+http-api = httpapi@0.0.0.0:6171
+http-api-tls = true
+http-api-web-dashboard = true
+allow-wifi-access = true
