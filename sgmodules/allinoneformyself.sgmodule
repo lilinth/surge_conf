@@ -14,7 +14,6 @@ hide-vpn-icon = true
 [Script]
 贴吧签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 贴吧获取Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
-http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lilinth/surge_conf/main/jd_scripts/jd_bean_change.js
@@ -89,4 +88,4 @@ crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,scri
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lilinth/surge_conf/main/jd_scripts/backUp/xmSports.js
 
 [MITM]
-hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, ifac*.iqiyi.com, api.m.jd.com, c.tieba.baidu.com
+hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, ifac*.iqiyi.com, c.tieba.baidu.com
