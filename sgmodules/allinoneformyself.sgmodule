@@ -1,9 +1,6 @@
 #!name=all in one for myself
 #!desc=Update date: 20210911
 
-# Task&Cookies模块配置 
-# TG讨论组 (https://t.me/JD_fruit_pet)
-
 [General]
 http-api = httpapi@0.0.0.0:6171
 http-api-tls = true
