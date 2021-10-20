@@ -1,12 +1,5 @@
-#!name=all in one for myself
-#!desc=Update date: 20210911
-
-[General]
-http-api = httpapi@0.0.0.0:6171
-http-api-tls = true
-http-api-web-dashboard = true
-allow-wifi-access = true
-hide-vpn-icon = true
+#!name=signin for tieba and iqiyi
+#!desc=Update date: 20211020
 
 [Script]
 贴吧签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
