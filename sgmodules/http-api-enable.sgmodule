@@ -3,7 +3,7 @@
 
 [General]
 http-api = httpapi@0.0.0.0:6171
-http-api-tls = true
+http-api-tls = false
 http-api-web-dashboard = true
 allow-wifi-access = true
 hide-vpn-icon = true
