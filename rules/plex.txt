@@ -1,0 +1,3 @@
+payload:
+  - '+.plex.tv'
+  - '+.plex.direct'
