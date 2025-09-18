@@ -1,5 +1,7 @@
 #!name=Panels
-#!desc=2022/1/4 一个Luca自用的信息面板模块
+#!desc=2025/09/18 一个Luca自用的信息面板模块
+#SUBSCRIBED https://raw.githubusercontent.com/lilinth/surge_conf/refs/heads/main/sgmodules/panel.sgmodules
+
 [Panel]
 
 # 节假日查询
