@@ -1,6 +1,6 @@
 #!name=nga 签到
 #!desc=nga自动签到
-
+#!date=2025/09/18
 [Script]
 NGA刮墙 = type=cron,cronexp=40 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/nga.js
 
